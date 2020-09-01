@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRangeTo" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-29T18:56:30" hostname="haxor" time="0.027">
+  <properties/>
+  <testcase name="testAfter" classname="TestRangeTo" time="0.008"/>
+  <testcase name="testBefore" classname="TestRangeTo" time="0.001"/>
+  <testcase name="testInRange" classname="TestRangeTo" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
