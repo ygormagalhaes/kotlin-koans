@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: customers.all { it.city == city }
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 282
     length: 38
     placeholder_text: TODO()
@@ -23,7 +23,7 @@ files:
     initialized_from_dependency: false
     possible_answer: customers.any { it.city == city }
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 429
     length: 40
     placeholder_text: TODO()
@@ -33,7 +33,7 @@ files:
     initialized_from_dependency: false
     possible_answer: customers.count { it.city == city }
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 603
     length: 39
     placeholder_text: TODO()
@@ -43,7 +43,7 @@ files:
     initialized_from_dependency: false
     possible_answer: customers.find { it.city == city }
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     // Return true if all customers are from a given city
     fun Shop.checkAllCustomersAreFrom(city: City): Boolean =
