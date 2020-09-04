@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 188
-    length: 186
+  - offset: 189
+    length: 148
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -19,8 +19,8 @@ files:
                   .maxBy(Product::price)
     selected: true
     status: Solved
-  - offset: 568
-    length: 132
+  - offset: 529
+    length: 144
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -32,7 +32,7 @@ files:
                   .count { it == product }
     selected: true
     status: Solved
-  - offset: 762
+  - offset: 735
     length: 31
     placeholder_text: /* TODO */
     initial_state:
@@ -176,5 +176,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 04 Sep 2020 19:48:30 UTC
+  time: Fri, 04 Sep 2020 19:52:15 UTC
 record: -1
