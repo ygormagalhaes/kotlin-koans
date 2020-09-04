@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 137
-    length: 6
+  - offset: 132
+    length: 9
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -13,9 +13,9 @@ files:
     initialized_from_dependency: false
     possible_answer: s.length
     selected: false
-    status: Unchecked
-  - offset: 213
-    length: 6
+    status: Solved
+  - offset: 202
+    length: 7
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -23,9 +23,9 @@ files:
     initialized_from_dependency: false
     possible_answer: group.size
     selected: false
-    status: Unchecked
-  - offset: 285
-    length: 6
+    status: Solved
+  - offset: 266
+    length: 29
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -33,7 +33,7 @@ files:
     initialized_from_dependency: false
     possible_answer: group.size == maximumSizeOfGroup
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     fun doSomethingWithCollection(collection: Collection<String>): Collection<String>? {
 
@@ -79,5 +79,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 04 Sep 2020 20:09:19 UTC
 record: -1
