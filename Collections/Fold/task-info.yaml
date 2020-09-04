@@ -17,7 +17,7 @@ files:
               orderedByAll.intersect(customer.getOrderedProducts())
           })
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 420
     length: 36
     placeholder_text: TODO()
@@ -27,7 +27,7 @@ files:
     initialized_from_dependency: false
     possible_answer: orders.flatMap(Order::products)
     selected: true
-    status: Solved
+    status: Unchecked
   text: |-
     // Return the set of products that were ordered by all customers
     fun Shop.getProductsOrderedByAll(): Set<Product> {

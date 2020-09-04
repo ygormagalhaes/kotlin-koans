@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: orders.flatMap(Order::products)
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 271
     length: 60
     placeholder_text: TODO()
@@ -23,7 +23,7 @@ files:
     initialized_from_dependency: false
     possible_answer: customers.flatMap(Customer::getOrderedProducts).toSet()
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     // Return all products the given customer has ordered
     fun Customer.getOrderedProducts(): List<Product> =
