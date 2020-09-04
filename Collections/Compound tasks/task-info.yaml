@@ -19,8 +19,8 @@ files:
                   .maxBy(Product::price)
     selected: true
     status: Solved
-  - offset: 529
-    length: 144
+  - offset: 665
+    length: 0
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -32,8 +32,8 @@ files:
                   .count { it == product }
     selected: true
     status: Solved
-  - offset: 735
-    length: 31
+  - offset: 721
+    length: 35
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -176,5 +176,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 04 Sep 2020 19:52:15 UTC
+  time: Fri, 04 Sep 2020 19:58:02 UTC
 record: -1

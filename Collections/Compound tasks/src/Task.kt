@@ -9,10 +9,10 @@ fun findMostExpensiveProductBy(customer: Customer): Product? =
 // Count the amount of times a product was ordered.
 // Note that a customer may order the same product several times.
 fun Shop.getNumberOfTimesProductWasOrdered(product: Product): Int =
-        customers.fold(0) { totalOrders, customer ->
-            totalOrders + customer.getOrderedProducts().filter { it == product }.size
-        }
-
+        customers
+                .flatMap(Customer::getOrderedProducts)
+                .filter { it == product }
+                .count()
 
 fun Customer.getOrderedProducts(): List<Product> =
         orders.flatMap(Order::products)
