@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: s.length
     selected: false
-    status: Solved
+    status: Unchecked
   - offset: 202
     length: 7
     placeholder_text: TODO()
@@ -23,7 +23,7 @@ files:
     initialized_from_dependency: false
     possible_answer: group.size
     selected: false
-    status: Solved
+    status: Unchecked
   - offset: 266
     length: 29
     placeholder_text: TODO()
@@ -33,7 +33,7 @@ files:
     initialized_from_dependency: false
     possible_answer: group.size == maximumSizeOfGroup
     selected: false
-    status: Solved
+    status: Unchecked
   text: |
     fun doSomethingWithCollection(collection: Collection<String>): Collection<String>? {
 
