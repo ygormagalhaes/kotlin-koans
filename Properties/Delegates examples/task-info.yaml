@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: lazy(initializer)
     selected: true
-    status: Unchecked
+    status: Solved
   text: |+
     class LazyProperty(val initializer: () -> Int) {
         val lazyValue: Int by TODO()
@@ -48,5 +48,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 10 Sep 2020 22:17:26 UTC
 record: -1
