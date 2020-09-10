@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 95
-    length: 3
+    length: 70
     placeholder_text: set
     initial_state:
       length: 3
@@ -16,7 +16,7 @@ files:
                   field = v
                   counter++
               }
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     class PropertyExample() {
@@ -45,5 +45,8 @@ files:
 
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Sep 2020 18:10:22 UTC
 record: -1

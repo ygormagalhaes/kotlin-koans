@@ -5,17 +5,17 @@ files:
   visible: true
   placeholders:
   - offset: 53
-    length: 10
+    length: 31
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 53
     initialized_from_dependency: false
     possible_answer: 'var value: Int? = null'
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 110
-    length: 6
+  - offset: 131
+    length: 99
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -26,7 +26,7 @@ files:
                       value = initializer()
                   }
                   return value!!
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     class LazyProperty(val initializer: () -> Int) {
@@ -65,5 +65,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Sep 2020 19:42:21 UTC
 record: -1

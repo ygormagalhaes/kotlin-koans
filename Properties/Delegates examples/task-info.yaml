@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 75
-    length: 6
+    length: 22
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 75
     initialized_from_dependency: false
     possible_answer: lazy(initializer)
-    selected: false
+    selected: true
     status: Unchecked
   text: |+
     class LazyProperty(val initializer: () -> Int) {

@@ -19,7 +19,7 @@ files:
                   .flatMap { it.products.asSequence() }
                   .maxBy(Product::price)
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 679
     length: 0
     placeholder_text: TODO()
@@ -33,7 +33,7 @@ files:
                   .flatMap(Customer::getOrderedProducts)
                   .count { it == product }
     selected: true
-    status: Solved
+    status: Unchecked
   - offset: 742
     length: 44
     placeholder_text: TODO()
@@ -43,7 +43,7 @@ files:
     initialized_from_dependency: false
     possible_answer: orders.flatMap(Order::products).asSequence()
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     // Find the most expensive product among all the delivered products
     // ordered by the customer. Use `Order.isDelivered` flag.
