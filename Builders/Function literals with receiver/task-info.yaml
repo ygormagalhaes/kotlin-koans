@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: this % 2 == 0
     selected: false
-    status: Solved
+    status: Unchecked
   - offset: 117
     length: 11
     placeholder_text: TODO()
@@ -23,7 +23,7 @@ files:
     initialized_from_dependency: false
     possible_answer: this % 2 != 0
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     fun task(): List<Boolean> {
         val isEven: Int.() -> Boolean = { TODO() }
