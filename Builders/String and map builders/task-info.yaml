@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 35
-    length: 160
+    length: 130
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -53,5 +53,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 11 Sep 2020 20:43:11 UTC
+  time: Fri, 11 Sep 2020 21:03:18 UTC
 record: -1
