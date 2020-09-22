@@ -1,5 +1,6 @@
 fun <T> T.myApply(f: T.() -> Unit): T {
-    TODO()
+    apply { f() }
+    return this
 }
 
 fun createString(): String {

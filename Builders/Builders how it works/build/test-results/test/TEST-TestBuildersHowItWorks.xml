@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestBuildersHowItWorks" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-18T21:49:10" hostname="haxor" time="0.029">
+  <properties/>
+  <testcase name="testBuildersQuiz" classname="TestBuildersHowItWorks" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

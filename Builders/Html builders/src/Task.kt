@@ -1,7 +1,7 @@
 fun renderProductTable(): String {
     return html {
         table {
-            tr/* TODO */ {
+            tr(getTitleColor()) {
                 td {
                     text("Product")
                 }
@@ -12,8 +12,21 @@ fun renderProductTable(): String {
                     text("Popularity")
                 }
             }
-            val products = getProducts()
-            TODO()
+
+            for ((rowIndex, product) in getProducts().withIndex()) {
+                tr {
+                    td(getCellColor(1, rowIndex)) {
+                        text(product.description)
+                    }
+                    td(getCellColor(2, rowIndex)) {
+                        text(product.price)
+                    }
+                    td(getCellColor(3, rowIndex)) {
+                        text(product.popularity)
+                    }
+                }
+            }
+
         }
     }.toString()
 }

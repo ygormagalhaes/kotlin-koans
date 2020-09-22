@@ -1,4 +1,4 @@
-open class Tag(val name: String) {
+open class Tag(private val name: String) {
     protected val children = mutableListOf<Tag>()
 
     override fun toString() =
@@ -13,13 +13,17 @@ fun table(init: TABLE.() -> Unit): TABLE {
 
 class TABLE : Tag("table") {
     fun tr(init: TR.() -> Unit) {
-        /* TODO */
+        val tr = TR()
+        tr.init()
+        children.add(tr)
     }
 }
 
 class TR : Tag("tr") {
     fun td(init: TD.() -> Unit) {
-        /* TODO */
+        val td = TD()
+        td.init()
+        children.add(td)
     }
 }
 
